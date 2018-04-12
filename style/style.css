@@ -1,0 +1,33 @@
+h1, p{
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+div[class^="game"] {
+  margin: 5px;
+}
+.botReponse {
+  display: flex;
+  justify-content: center;
+}
+.compteur {
+  position: fixed;
+  bottom: 50%;
+  right: 0;
+  margin: 10px;
+  border: 1px solid black;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.ciseaux {
+  opacity: ;
+}
+.ciseaux {
+  opacity: ;
+}
+.ciseaux {
+  opacity: ;
+}
