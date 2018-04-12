@@ -1,0 +1,15 @@
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+article p{
+  display: none;
+}
+article.current p{
+  display: block;
+}
+article h2{
+  color: #e74c3c;
+  width: 150px;
+  border: thin solid black;
+}
