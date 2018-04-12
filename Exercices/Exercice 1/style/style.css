@@ -1,0 +1,51 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(130, 202, 156);
+  color: white;
+  width: 1400px;
+}
+.all {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.bloc {
+  margin-right: 20px;
+}
+.bloc p {
+  width: 370px;
+  height: 120px;
+}
+.com {
+  display: flex;
+  justify-content: flex-start;
+}
+.com p {
+  transform: rotateZ(-90deg);
+}
+
+@media screen and (max-width: 900px ) {
+  body {
+    width: auto;
+  }
+  .max {
+    width: 500px;
+  }
+  .all {
+    flex-direction: column;
+    margin: auto;
+  }
+  * {
+    width: 10px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .com p {
+    transform: rotateZ(0);
+  }
+}

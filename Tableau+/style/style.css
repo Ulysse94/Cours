@@ -1,0 +1,21 @@
+table {
+  width: 500px;
+  margin: 40px auto;
+  border-collapse: collapse;
+  text-align: center;
+  border: 1px solid #888888;
+}
+table td, table th {
+  padding: 4px 10px;
+}
+table thead, table tfoot {
+  background: #FF9900;
+  color: #FFFFFF;
+}
+td, th {
+  padding: 10px 20px;
+}
+tbody tr:nth-child(even){
+    background: #ECECEC
+  }
+}
