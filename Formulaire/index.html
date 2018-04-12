@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Modèle</title>
+    <meta name="description" content="la description">
+    <link rel="stylesheet" href="./style/style.css">
+  </head>
+  <body>
+    <h1>Contenu</h1>
+    <form method="get" action="page2.php">
+      <div>
+        <label for="lastname">Votre nom:</label>
+        <input type="text" name="nom" id="lastname" placeholder="Renseignez votre nom">
+      </div>
+      <div>
+        <label for="firstname">Votre prénom:</label>
+        <input type="text" name="nom" id="firstname" placeholder="Renseignez votre prénom">
+      </div>
+      <div>
+        <label for="password">Votre mot de passe:</label>
+        <input type="password" name="motDePasse" id="password" placeholder="Renseignez votre mot de passe">
+      </div>
+      <div>
+        <label for="section">Votre section:</label>
+        <select id="section" name="section">
+          <optgroup label="Grand école">
+            <option value="p2022">1ère année</option>
+            <option value="p2021">2ème année</option>
+            <option value="p2020">3ème année</option>
+            <option value="p2019">4ème année</option>
+            <option value="p2018">5ème année</option>
+          </optgroup>
+          <optgroup label="Bachelor">
+            <option value="Web 1">1ère année</option>
+          </optgroup>
+        </select>
+      </div>
+      <div>
+        <h2>Vos Sports</h2>
+        <ul>
+          <li><input type="checkbox" name="sports" value="tennis" id="tennis"><label for="tennis">Tennis</label></li>
+          <li><input type="checkbox" name="sports" value="basket" id="basket"><label for="basket">Basket</label></li>
+          <li><input type="checkbox" name="sports" value="hand" id="hand"><label for="hand">Handball</label></li>
+          <li><input type="checkbox" name="sports" value="foot" id="foot"><label for="foot">Foot</label></li>
+        </ul>
+      </div>
+    </form>
+    <div class="popin-Background">
+    </div>
+    <div class="popin">
+      <h2>Contact</h2>
+      <p>
+        Feel free to contact us. We are willingto helpyou with any issues you may encounter with our products.
+      </p>
+      <form action="page2.php" method="get">
+        <div class="gau">
+          <div class="nam">
+            <label for="name">Nom</label>
+            <input type="text" name="nom" id="name" placeholder="John">
+          </div>
+          <div class="sub">
+            <label for="name">Subject</label>
+            <input type="text" name="sujet" id="subject" placeholder="Project Inquiry">
+          </div>
+        </div>
+        <div class="dro">
+          <div class="ema">
+            <label for="name">E-mail</label>
+            <input type="text" name="mail" id="email" placeholder="jonath.smith@john.com">
+          </div>
+          <div  class="bud">
+            <label for="name">Budget</label>
+            <select id="budget" name="budget">
+              <optgroup>
+                <option value="$800">$800</option>
+                <option value="$900">$900</option>
+                <option value="$1000">$1000</option>
+                <option value="$2000">$2000</option>
+                <option value="$3000">$3000</option>
+              </optgroup>
+            </select>
+          </div>
+        </div>
+        <div class="mes">
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required" class="intmess" placeholder=" Hello"></textarea>
+          </div>
+        </div>
+        <button id="submit" type="submit">Sen</button>
+      </form>
+    </div>
+  </body>
+</html>

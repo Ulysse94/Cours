@@ -1,0 +1,261 @@
+body {
+  margin: 0;
+  font-family: 'Slabo 27px', serif;
+  font-size:14px;
+  padding: 20px;
+  background-color: grey;
+  background: url(../images/fondsport.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1, h2, h3, h5, h6 {
+  font-family: 'Crete Round', serif;
+  text-transform: uppercase;
+  color: #c0392b;
+}
+h4 {
+  margin: 0;
+  padding: 0;
+  line-height:5px;
+}
+li {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.clearBoth {
+  clear: both;
+}
+/***********
+
+HEADER
+
+***********/
+header#header {
+  background: #bdc3c7;
+  padding: 30px 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+header#header img {
+  width: 150px;
+  height: 150px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+header#header img.right {
+  float: right;
+}
+header#header img.left {
+  float: left;
+}
+header#header h2 {
+  font-size: 40px;
+  margin-bottom: 0;
+  text-align: left;
+}
+header#header span {
+  font-size: 24px;
+  color: #e74c3c;
+  float: left;
+}
+.menu {
+  background: #bdc3c7;
+  padding: 0 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: sticky;
+  top: 0px;
+}
+.menu ol li {
+  display: inline;
+}
+.menu li {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  list-style: none;
+  position: relative;
+  margin: 10px 20px;
+}
+.menu .gmenu{
+  display: inline;
+  font-size: 15px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 2px;
+}
+.menu li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #bdc3c7;
+  border: 1px solid #7f8c8d;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+}
+.menu li:hover ul{
+  display: block;
+  padding-left: 5px;
+  margin: 0;
+  border-radius: 2px;
+  width: auto;
+  top: 27.5px;
+  left: 10px;
+}
+.menu li ul li:hover h4 {
+  display: block;
+  background-color: black;
+  color: white;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  border: 1px solid white;
+}
+.subm a {
+  color: black;
+}
+.subm li:hover a {
+  color: white;
+}
+/***********
+
+MAIN Gauche
+
+***********/
+article#article {
+  width: 440px;
+  padding: 10px;
+  float: left;
+  margin: 10px;
+  background: #bdc3c7;
+  border-radius: 10px;
+}
+article h2 {
+  text-align: center;
+  font-size: 25px;
+}
+article p {
+  color: #333333;
+  margin: 10px;
+}
+article img.sport {
+  float: left;
+  margin: 3px;
+  max-height: 60%;
+  max-width: 60%;
+  border-radius: 20%;
+}
+article#article div{
+ border: 1px solid black;
+ margin: 4px 0;
+ border-radius: 10px;
+ transition: all .4s ease-in-out;
+}
+article#article div:hover {
+  background-color: black;
+}
+article#article div:hover p {
+  color: white;
+}
+article#article div:hover h2 {
+  color: #e74c3c;
+}
+article#article div:hover img {
+ border: 1px solid white;
+ max-height: 59%;
+ max-width: 59%;
+}
+
+/***********
+
+MAIN Droit
+
+***********/
+article#jo {
+  width: 440px;
+  padding: 10px;
+  margin: 10px;
+  background: #bdc3c7;
+  border-radius: 10px;
+  float: right;
+}
+article#jo img{
+  max-height: 33%;
+  max-width: 33%;
+  float: left;
+  padding: 10px;
+  margin: 6px;
+}
+article#jo h4{
+  text-align: center;
+}
+/***********
+
+Bas
+
+***********/
+article#fin {
+  padding: 10px 10px;
+  border-radius: 10px;
+  background: #bdc3c7;
+}
+article#fin h6 {
+  font-size: 11px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border: 1px solid grey;
+  border-radius: 10%;
+}
+article#fin table.tab li {
+  list-style: none;
+}
+article#fin img.bas{
+  max-width: 10%;
+  max-height: 10%;
+}
+article#fin h3{
+  text-align: center;
+  margin-bottom: 0;
+}
+table {
+  border: 0;
+}
+th {
+  border: 0;
+}
+td {
+  border: 0;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 10%;
+}
+.tab td {
+  border: none;
+}
+/***********
+
+Footer
+
+***********/
+footer {
+  background: #bdc3c7;
+  padding: 5px 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+  text-align: right;
+}

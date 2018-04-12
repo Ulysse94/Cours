@@ -1,0 +1,87 @@
+.clearBoth {
+  clear: both;
+}
+.popin-Background {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+}
+.popin {
+  position: fixed;
+  z-index: 101;
+  width: 400px;
+  height: 350px;
+  background: white;
+  top: 50%;
+  left: 50%;
+  border-radius:4px;
+  transform: translate(-50%,-50%);
+  padding: 30px;
+}
+.popin h2 {
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Arial" sans-serif;
+  font-size: 18px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid grey;
+}
+.popin form {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.gau{
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+}
+.dro{
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+}
+.sub, .bud {
+  padding-top: 8px;
+}
+#budget {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+}
+.mes {
+  position: relative;
+  top: 90px;
+  right: 370px;
+}
+.mes div {
+  position: absolute;
+}
+#message {
+  width: 325px;
+  height: 50px;
+}
+button {
+  position: absolute;
+  background-color:#2ABCA7;
+  padding: 12px 45px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #2ABCA7;
+  -webkit-transition: .5s;
+  transition: .5s;
+  display: inline-block;
+  cursor: pointer;
+  width:30%;
+  color:#fff;
+  bottom: 20px;
+}
+button:hover, .button:hover {
+  background:#19a08c;
+}
