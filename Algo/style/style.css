@@ -1,0 +1,17 @@
+table {
+ border-width:1px;
+ border-style:solid;
+ border-color:black;
+ }
+td {
+width: 20px;
+height: 20px;
+ }
+.jeu {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  margin: 5px;
+}
